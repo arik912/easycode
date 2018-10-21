@@ -1,0 +1,48 @@
+.style{
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+input{
+	margin: 10px;
+}
+.block {
+	width: 10px;
+	height: 10px;
+	background: red;
+}
+.liters{
+	width: 160px;
+	height: 310px;
+	background: #b3a77d;
+	border:1px solid #b3a77d;
+	margin: 5px;
+	padding: 5px;
+}
+.liters__green{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	background: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.liters__red{
+	margin-top: 5px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	background: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.liters p span{
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color:green;
+}
