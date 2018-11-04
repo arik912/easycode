@@ -4,10 +4,25 @@ li{
 	border:1px solid blue;
 	padding: 0px;
 }
-.status, .task__title, .task__body{
+ .task__title, .task__body{
 	border-right: 1px solid blue;
 	padding:5px;
 }
 form{
 	display: none;
 }
+/*form.addEventListener('submit',(e) => {
+  e.preventDefault()
+  let newTask = {
+    title: document.querySelector('.title').value,
+    body: document.querySelector('.body').value
+  }
+  let name = document.querySelector('.title').value;
+  localStorage[`${name}`] = JSON.stringify(newTask);
+  console.log(localStorage.newTask)
+  document.querySelector('.title').value = '';
+  body: document.querySelector('.body').value = '';
+  form.style.display = 'none';
+  alert('successful');
+});
+*/
